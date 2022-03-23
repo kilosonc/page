@@ -1,37 +1,21 @@
 ## Horizon
 
-You can use the [editor on GitHub](https://github.com/horizoncd/page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Horizon is a fully managed delivery platform for deploying containered  applications based the kubernetes with increased efficiency, consistency, and control. 
+Platform Team can quickly build a DevOps platforms for final application developers based on Horizon.  And  Based on  The Scalable Horizon Template System( now based on Helm)  You can Quick Delivery any Kinds of Workload To Different Environments.
+Horizon is Inspire by AWS Proton、Gitlab、ArgoCD。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## FAQs
 
-### FAQs
+### Horizon  vs  ArgoCD
+ArgoCD is a great tool  for the Kubernetes Platform Team or Users that familiar With Kubernetes。But For Many Developer We Think There is no need for them To familiar About Kubernetes. We hope to create a more user-friendly interface for them，so we create Horizon based on ArgoCD. Horizon allow developers  develop deliver Application more efficiency
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Horizon  vs  AWS Proton
+Many concepts of Horizon are derived from AWS Proton, such as the Template system, and some UI design . AWS Proton support create  environment through IAC（Infrastructure as code), and  delivery a service by choose a Service Template. The main goal of Horizon at the current stage is just service Management on top of Kubernetes.
+Horizon   vs  GitOps
+GitOps is a best practice. Horizon Follow this Best Practice. Horizon's 'application-centric' approach to GitOps is designed to make developer's every change stable, reliable, secure, auditable, and rollbackable.
 
-```markdown
-Syntax highlighted code block
+### Horizon Advantage
+Within NetEase Cloud Music, the Platform Team delivers a variety of rich Workloads to users based on Horizon, including WebServer, middleWare, Serverless (Knative application), etc. 400+  R&D make Hundreds of deploy based on Horizon everyday. The real demand, time deposit and Horizon team's careful polishing of the product make Horizon relatively well able to meet the daily management needs of PlatForm users and DevOps needs of developers.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/horizoncd/page/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Why Opensource
+First of all, NetEase Group encourages to do open source and encourage innovation and sharing. On the other hand we think Horizon can many peoples like us.  If you are interested, you can contact us and give it a try.
