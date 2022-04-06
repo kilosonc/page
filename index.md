@@ -6,6 +6,8 @@ Horizon is Inspire by AWS Proton、Gitlab、ArgoCD And Openshift.
 
 The platform team can ensure flexible, secure, and efficient  delivery of application based Horizon tempate system(based on Helm) , RBAC member system and gitops system.
 
+![horizon](https://github.com/horizoncd/page/blob/gh-pages/horizon.png?raw=true)
+
 ## FAQs
 
 ### Horizon Usage
